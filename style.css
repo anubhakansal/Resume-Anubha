@@ -1,0 +1,175 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    /* scroll-behavior: smooth; */
+    /* max-height: 100%; */
+    
+}
+
+.container{
+   
+    font-family: cursive; 
+    font-style: oblique;
+    line-height: 30px;
+    align-content: center;
+    margin-left: 0px;
+    /* margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px; */
+}
+#about p{
+    margin: 0 auto;
+}
+.card{
+    border: 1px block black;
+    border-radius: 2%;
+    padding: 10px;
+}
+
+.row{
+    min-height: 100%;
+}
+
+.left{
+    background-color: black;
+    min-height:100%;
+    width:25%;
+    float: left;
+    position: fixed;
+    text-align: center;
+}
+
+.right{
+    width: 75%;
+    position: relative;
+    left: 70%;
+}
+
+.Icon img{
+    display: inline-block;
+    margin: 0 auto;
+    width: 40px;
+}
+
+h2{
+    color: dimgrey;
+}
+
+.Text{
+    width: 824px;
+    border-top: 1px dimgrey solid;
+    border-bottom: 1px dimgrey solid;
+    margin: 0 auto;
+}
+
+.Text li{
+    padding-top: 4px;
+    margin: 0 auto;
+}
+
+.hobimg img{
+    border: 1px solid black;
+}
+
+h3{
+    text-align: left;
+    text-decoration: underline;
+    text-indent: 1%;
+}
+
+.card{
+    width: 667px;
+    left: 180px;
+    position: absolute;
+    border-color: black;
+}
+
+.card-title{
+    text-align: center;
+}
+.card div{
+    text-align: left;
+}
+.edu h6{
+    text-decoration: none;
+    /* text-indent: 15%; */
+    display: inline-block;
+}
+
+.edu table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+.edu{
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin:  0px auto;
+    /* left: 25%; */
+}
+
+.edu ol{
+    display:inline-block;
+}
+
+/* #menu table, th, td{
+    border: 0px;
+    border-collapse: collapse;
+    padding: 10px;
+} */
+
+.dp{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 55px auto;
+}
+
+.nav a:hover{
+    color: lightcoral;
+    font-size: 20px;
+    
+}
+
+.nav a{
+    color: white;
+}
+  
+.nav li{
+    margin: 0px;
+    text-align: right;
+    
+  }
+
+.CONicon{
+    color: white;
+    font-size: 30px;
+    display: table;
+    margin: 0 auto;
+    transform: translateX(10%);
+    position: absolute;
+    bottom: 0;
+    padding-right: 10px;
+  
+}
+
+.CONicon a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+  
+.CONicon img{
+    margin: 23px 4px;
+    display: inline-block;
+    width: 30px;
+}
+
+.nav ol{
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+
