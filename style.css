@@ -8,8 +8,8 @@ html,body{
 
 .container{
    
-    font-family: cursive; 
-    font-style: oblique;
+    /* font-family: cursive;  */
+    /* font-style: oblique; */
     line-height: 30px;
     align-content: center;
     margin-left: 0px;
@@ -19,6 +19,10 @@ html,body{
 }
 #about p{
     margin: 0 auto;
+}
+
+#menu{
+    font-family: 'Times New Roman', Times, serif;
 }
 .card{
     border: 1px block black;
@@ -43,6 +47,8 @@ html,body{
     width: 75%;
     position: relative;
     left: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
 }
 
 .Icon img{
@@ -50,9 +56,12 @@ html,body{
     margin: 0 auto;
     width: 40px;
 }
-
+h1{
+    font-family: cursive;
+}
 h2{
     color: dimgrey;
+    font-family: cursive;
 }
 
 .Text{
@@ -135,6 +144,7 @@ h3{
 
 .nav a{
     color: white;
+    text-decoration: none;
 }
   
 .nav li{
